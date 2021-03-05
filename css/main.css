@@ -2930,13 +2930,13 @@ nav.nav-demo {
 
 .offcet-art, .offcet-art-right, .offcet-art-dark {
   box-shadow: 0px 0 20px 0px rgba(0, 0, 0, 0.08);
-  background: #fff;
+  background: #f1f1f1;
   position: absolute;
   top: auto;
   left: -195px;
   bottom: 20px;
   color: #000;
-  padding: 45px 55px;
+  padding: 30px 55px;
   width: 60%;
   text-align: left;
   border-radius: 4px;
