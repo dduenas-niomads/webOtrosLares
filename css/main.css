@@ -1463,6 +1463,7 @@ a.btn-nav .btn {
   display: table;
   text-align: center;
   width: 100%;
+  background-image: url(../img/main/0.png);
   color: #fff;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -3022,6 +3023,7 @@ nav.nav-demo {
 @media (max-width: 480px) {
   .intro {
     height: 80% !important;
+    background-image: url(../img/main/palla.png);
   }
   .intro h1 {
     font-size: 30px !important;
