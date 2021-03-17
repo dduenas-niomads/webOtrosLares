@@ -1460,7 +1460,7 @@ a.btn-nav .btn {
 
 /* Intro */
 .intro {
-  display: flex;
+  display: table;
   text-align: center;
   width: 100%;
   color: #fff;
@@ -3020,6 +3020,9 @@ nav.nav-demo {
 }
 /* Media Queries */
 @media (max-width: 480px) {
+  .intro {
+    height: 80% !important;
+  }
   .intro h1 {
     font-size: 30px !important;
     line-height: 40px !important;
