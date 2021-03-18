@@ -1463,9 +1463,9 @@ a.btn-nav .btn {
   display: table;
   text-align: center;
   width: 100%;
-  background-image: url(../img/main/0.png);
+  background-image: url(../img/main/toro.png);
   color: #fff;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 3px rgba(184, 143, 143, 0.2);
   overflow: hidden;
   position: relative;
   background-repeat: no-repeat;
