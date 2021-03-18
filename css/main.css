@@ -1467,7 +1467,7 @@ a.btn-nav .btn {
   color: #fff;
   text-shadow: 0 1px 3px rgba(184, 143, 143, 0.2);
   overflow: hidden;
-  position: relative;
+  /* position: relative; */
   background-repeat: no-repeat;
   background-position: center center;
   height: 100% !important;
