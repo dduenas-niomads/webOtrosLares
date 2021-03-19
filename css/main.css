@@ -3047,7 +3047,7 @@ nav.nav-demo {
 @media (max-width: 480px) {
   .intro {
     height: 80% !important;
-    background-image: url(../img/main/palla.png);
+    background-image: url(../img/main/pallalogo.png);
   }
   .slideshow-container {
     display: none;
