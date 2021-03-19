@@ -1457,20 +1457,44 @@ a.btn-nav .btn {
 .bg-white a {
   color: #555 !important;
 }
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
 
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 /* Intro */
 .intro {
   display: table;
   text-align: center;
   width: 100%;
-  background-image: url(../img/main/toro.png);
   color: #fff;
   text-shadow: 0 1px 3px rgba(184, 143, 143, 0.2);
   overflow: hidden;
   /* position: relative; */
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100% !important;
+  /* height: 100% !important; */
   z-index: 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -3025,6 +3049,10 @@ nav.nav-demo {
     height: 80% !important;
     background-image: url(../img/main/palla.png);
   }
+  .slideshow-container {
+    display: none;
+  }
+
   .intro h1 {
     font-size: 30px !important;
     line-height: 40px !important;
