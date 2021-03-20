@@ -3045,13 +3045,13 @@ nav.nav-demo {
 }
 /* Media Queries */
 @media (max-width: 480px) {
-  .intro {
+  /* .intro {
     height: 80% !important;
     background-image: url(../img/main/pallalogo.png);
   }
   .slideshow-container {
     display: none;
-  }
+  } */
 
   .intro h1 {
     font-size: 30px !important;
