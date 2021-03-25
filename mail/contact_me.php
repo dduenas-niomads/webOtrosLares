@@ -1,6 +1,6 @@
 <?php
 
-    $to = "contacto@otroslaresperu.com";
+    $to = "amacostas92@gmail.com";
     $subject = "Contacto: Formulario de Contacto Web Otros Lares";
     $message = '<html><body>';
     $message = $message . '<table rules="all" style="border-color: #666;" cellpadding="10">';
@@ -14,7 +14,7 @@
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
     // More headers. From is required, rest other headers are optional
-    $headers .= 'From: contacto@otroslaresperu.com' . "\r\n";
+    $headers .= 'From: info@niomads.com' . "\r\n";
 
     $mail = mail($to, $subject, $message, $headers);
     if ($mail){
